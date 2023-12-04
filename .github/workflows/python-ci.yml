@@ -31,3 +31,7 @@ jobs:
     # Fourth step: run tests with Pytest
     - name: Run tests
       run: make
+
+    # Fifth step: run black formatter
+    - name: Format with Black
+      run: black .
